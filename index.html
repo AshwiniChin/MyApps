@@ -3,15 +3,47 @@
 <head>
     <title>My Apps</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <h1>My Apps</h1>
     <p>Here are some of my apps </p>
-    <iframe width="392" height="620" style="border: 0px;"
-        src="https://studio.code.org/projects/applab/VDSRmdSo68c8dkzHv7kCe2Wv2VS6GJ6mbAzUC8qh54s/embed"></iframe>
-    <iframe width="392" height="620" style="border: 0px;"
-        src="https://studio.code.org/projects/applab/UwHfHXpEnA548HTNEHbs5wlLK4iwTza6MYP6X5PSVtU/embed"></iframe>
+
+
+    <div id="myApps" class="carousel slide">
+        <center>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <iframe width="392" height="620" style="border: 0px;"
+                        src="https://studio.code.org/projects/applab/BV-wou3a8rVxAQTrbsYqbtJ-T7s9GfutzpOdl7jgNGI/embed"></iframe>
+                    <p>Draw Patterns</p>
+                </div>
+
+                <div class="item">
+                    <iframe width="392" height="620" style="border: 0px;"
+                        src="https://studio.code.org/projects/applab/hVGk-hTwJ-xqgFj7JTIKjGiLaj5Q7jbGiLQ-h9xP9oA/embed"></iframe>
+                    </a>
+                    <p>Stop Watch</p>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myApps" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myApps" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </center>
+    </div>
+
 </body>
 
 </html>
